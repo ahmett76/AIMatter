@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-Matter.com | Premium Domain For Sale</title>
+  <meta name="description" content="AI-Matter.com – Connecting Intelligence to Matter. Premium domain for Smart City, Smart Home and AI for the physical world.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #05070a;
+      --card: #0b1018;
+      --cyan: #00f0c8;
+      --cyan-dim: #00c9a7;
+      --green: #39ff14;
+      --text: #e8f0ff;
+      --muted: #8a9bb5;
+      --border: rgba(0, 240, 200, 0.18);
+      --glow: 0 0 40px rgba(0, 240, 200, 0.25);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(0, 240, 200, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 240, 200, 0.03) 1px, transparent 1px);
+      background-size: 60px 60px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px 80px;
+    }
+
+    .logo-wrap {
+      margin-bottom: 28px;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .logo-wrap img {
+      max-width: 100%;
+      width: 720px;
+      height: auto;
+      filter: drop-shadow(0 0 30px rgba(0, 240, 200, 0.35));
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-12px); }
+    }
+
+    .badge {
+      display: inline-block;
+      background: rgba(0, 240, 200, 0.1);
+      border: 1px solid var(--border);
+      color: var(--cyan);
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 8px 18px;
+      border-radius: 100px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(2.4rem, 6vw, 3.8rem);
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 12px;
+      background: linear-gradient(90deg, #a0aec0 0%, #00f0c8 45%, #39ff14 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .tagline {
+      font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+      color: var(--muted);
+      font-weight: 400;
+      max-width: 560px;
+      margin: 0 auto 40px;
+    }
+
+    .cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+      margin-top: 10px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 16px 32px;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: all 0.25s ease;
+      cursor: pointer;
+      border: none;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #00f0c8, #00c9a7);
+      color: #04120f;
+      box-shadow: 0 8px 30px rgba(0, 240, 200, 0.35);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 40px rgba(0, 240, 200, 0.5);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--cyan);
+      border: 1px solid var(--border);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(0, 240, 200, 0.08);
+      border-color: var(--cyan);
+    }
+
+    section {
+      padding: 80px 0;
+    }
+
+    .section-title {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.7rem;
+      text-align: center;
+      margin-bottom: 16px;
+      color: var(--text);
+    }
+
+    .section-sub {
+      text-align: center;
+      color: var(--muted);
+      max-width: 620px;
+      margin: 0 auto 48px;
+      font-size: 1.05rem;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 32px 28px;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      border-color: rgba(0, 240, 200, 0.4);
+      box-shadow: var(--glow);
+      transform: translateY(-6px);
+    }
+
+    .card-icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: rgba(0, 240, 200, 0.12);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+
+    .card h3 {
+      font-size: 1.15rem;
+      margin-bottom: 10px;
+      color: var(--cyan);
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .use-cases {
+      background: linear-gradient(180deg, transparent, rgba(0, 240, 200, 0.03), transparent);
+    }
+
+    .use-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .use-item {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 22px 24px;
+    }
+
+    .use-item .num {
+      font-family: 'Orbitron', sans-serif;
+      color: var(--cyan);
+      font-size: 1.2rem;
+      font-weight: 600;
+      min-width: 28px;
+    }
+
+    .use-item strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--text);
+    }
+
+    .use-item span {
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .value-box {
+      background: linear-gradient(135deg, rgba(0, 240, 200, 0.08), rgba(57, 255, 20, 0.05));
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      padding: 48px 40px;
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .value-box h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1.6rem;
+      margin-bottom: 12px;
+    }
+
+    .value-box p {
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+
+    .price-hint {
+      font-size: 0.95rem;
+      color: var(--cyan-dim);
+      margin-top: 18px;
+    }
+
+    .final-cta {
+      text-align: center;
+      padding: 100px 20px 80px;
+    }
+
+    .final-cta h2 {
+      font-family: 'Orbitron', sans-serif;
+      font-size: clamp(1.8rem, 4vw, 2.4rem);
+      margin-bottom: 16px;
+    }
+
+    .final-cta p {
+      color: var(--muted);
+      max-width: 500px;
+      margin: 0 auto 36px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: var(--cyan);
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      .logo-wrap img {
+        width: 100%;
+      }
+      .btn {
+        width: 100%;
+        justify-content: center;
+      }
+      .value-box {
+        padding: 36px 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="container">
+      <div class="logo-wrap">
+        <img src="logo.png" alt="AI-Matter Logo – Connecting Intelligence to Matter">
+      </div>
+      <div class="badge">Premium Domain • For Sale</div>
+      <h1>AI-Matter.com</h1>
+      <p class="tagline">Connecting Intelligence to Matter.<br>A powerful brand for Smart Cities and Smart Homes.</p>
+      <div class="cta-group">
+        <a href="#contact" class="btn btn-primary">Buy / Make an Offer</a>
+        <a href="#concept" class="btn btn-secondary">Explore the Concept</a>
+      </div>
+    </div>
+  </div>
+
+  <section id="concept">
+    <div class="container">
+      <h2 class="section-title">Why AI-Matter?</h2>
+      <p class="section-sub">
+        Artificial intelligence is no longer limited to the digital world — it is transforming the physical world, homes, and cities.
+        <strong style="color:var(--cyan)">AI-Matter</strong> sits at the center of this transformation.
+      </p>
+
+      <div class="features">
+        <div class="card">
+          <div class="card-icon">🏙️</div>
+          <h3>Smart City</h3>
+          <p>Perfect for smart city infrastructure, IoT networks, energy management, and urban intelligence platforms.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🏠</div>
+          <h3>Smart Home</h3>
+          <p>Ideal for Matter protocol and AI-powered smart home systems. The slogan “Connecting Intelligence to Matter” fits perfectly.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">🧠</div>
+          <h3>AI + Physical World</h3>
+          <p>A strong brand for companies building robotics, materials science, edge AI, and physical world models.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">✨</div>
+          <h3>Brand Potential</h3>
+          <p>Short, memorable, and .com. Easy to pronounce globally and carries premium prestige.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="use-cases">
+    <div class="container">
+      <h2 class="section-title">Possible Use Cases</h2>
+      <p class="section-sub">This domain fits many high-potential sectors.</p>
+
+      <div class="use-list">
+        <div class="use-item">
+          <div class="num">01</div>
+          <div>
+            <strong>Smart Home Platform</strong>
+            <span>Matter-compatible devices + AI assistant</span>
+          </div>
+        </div>
+        <div class="use-item">
+          <div class="num">02</div>
+          <div>
+            <strong>Smart City Solutions</strong>
+            <span>City management, traffic, energy AI</span>
+          </div>
+        </div>
+        <div class="use-item">
+          <div class="num">03</div>
+          <div>
+            <strong>AI for Materials / Science</strong>
+            <span>Materials discovery and physical simulation</span>
+          </div>
+        </div>
+        <div class="use-item">
+          <div class="num">04</div>
+          <div>
+            <strong>Robotics & Edge AI</strong>
+            <span>Agents that understand the physical world</span>
+          </div>
+        </div>
+        <div class="use-item">
+          <div class="num">05</div>
+          <div>
+            <strong>PropTech / Real Estate AI</strong>
+            <span>Smart buildings and real estate technology</span>
+          </div>
+        </div>
+        <div class="use-item">
+          <div class="num">06</div>
+          <div>
+            <strong>IoT Security & Network</strong>
+            <span>Intelligent connectivity layer between devices</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="value-box">
+        <h2>Domain Details</h2>
+        <p>
+          <strong>AI-Matter.com</strong> — a clean, premium .com domain.<br>
+          Recently registered. No active site or previous usage history.
+        </p>
+        <div class="cta-group" style="justify-content:center;">
+          <a href="#contact" class="btn btn-primary">Make an Offer Now</a>
+        </div>
+        <p class="price-hint">Reasonable negotiation available for serious buyers.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-cta" id="contact">
+    <div class="container">
+      <h2>Interested in Buying?</h2>
+      <p>
+        Contact us to make AI-Matter.com your brand or investment.
+        Fast and secure transfer available.
+      </p>
+      <div class="cta-group">
+        <a href="mailto:youremail@example.com?subject=AI-Matter.com%20Offer" class="btn btn-primary">
+          Send Offer by Email
+        </a>
+        <a href="https://www.sedo.com" target="_blank" rel="noopener" class="btn btn-secondary">
+          Buy via Sedo / Escrow
+        </a>
+      </div>
+      <p style="margin-top:32px; font-size:0.95rem; color:var(--muted);">
+        Remember to replace the email address with your own.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 AI-Matter.com — Connecting Intelligence to Matter.</p>
+      <p style="margin-top:8px;">This domain is for sale.</p>
+    </div>
+  </footer>
+</body>
+</html>
